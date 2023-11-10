@@ -2,13 +2,16 @@
 const express = require("express");
 const app = express();
 const port = 3000;
+const postController = require("./controllers/post");
 
-// Creo un metodo per ricevere una richiesta HTTP GET
+// Rotta principale
 app.get("/", (req, res) => {
   res.send("<h1>Benvenuto nel mio blog!</h1>");
 });
 
-// Eseguo l'app sul server
+// Rotta per /posts utilizzando il controller
+app.get("/posts", postController.getPosts);
+
 app.listen(port, () => {
   console.log(`Server in esecuzione su http://localhost:${port}`);
 });
