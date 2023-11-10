@@ -1,34 +1,32 @@
 [
   {
-    "title": "Post 1",
-    "content": "Contenuto del post 1", 
-    "image": "image1.jpg",
-    "tags": ["tag1", "tag2"]
+    "title": "Come creare un blog con Node.js",
+    "content": "In questo post vedremo come creare un semplice blog utilizzando Node.js ed Express...",
+    "image": "nodejs-blog.jpg",
+    "tags": ["nodejs", "express", "javascript"]
   },
   {
-    "title": "Post 2", 
-    "content": "Contenuto del post 2",
-    "image": "image2.jpg",
-    "tags": ["tag2", "tag3"]
+    "title": "Deploy di un'app Node.js su Heroku",
+    "content": "In questo post spiegherò come deployare facilmente un'applicazione Node.js su Heroku...",
+    "image": "heroku-logo.png",
+    "tags": ["heroku", "deploy", "nodejs"]
   },
   {
-    "title": "Post 3",
-    "content": "Contenuto del post 3",
-    "image": "image3.jpg", 
-    "tags": ["tag3", "tag4"]
+    "title": "Le 10 migliori librerie Node.js del 2022",
+    "content": "Ecco una lista delle 10 librerie Node.js più utili e popolari del 2022...",
+    "image": "nodejs-libraries.png",
+    "tags": ["nodejs", "librerie", "npm"]
   },
   {
-    "title": "Post 4",
-    "content": "Contenuto del post 4",
-    "image": "image4.jpg",
-    "tags": ["tag4", "tag5"]
+    "title": "Come connettersi a un database da Node.js",
+    "content": "Vediamo le diverse opzioni per connettersi a un database SQL o NoSQL da una applicazione Node.js...",
+    "image": "nodejs-database.png",
+    "tags": ["nodejs", "database", "sql", "nosql"]
   },
   {
-    "title": "Post 5",
-    "content": "Contenuto del post 5",
-    "image": "image5.jpg",
-    "tags": ["tag5", "tag1"]
+    "title": "Sicurezza delle app Node.js: best practices",
+    "content": "Alcuni consigli e best practices per sviluppare applicazioni Node.js sicure e proteggere i dati degli utenti...",
+    "image": "nodejs-security.png",
+    "tags": ["nodejs", "sicurezza", "best practices"]
   }
 ]
-
-
